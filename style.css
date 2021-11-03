@@ -1,0 +1,176 @@
+
+h1 {
+  font-size: 65px;
+  color: rgb(218, 129, 3);
+  text-align: center;
+}
+
+h2 {
+  font-size: 25px;
+  color : black;
+  text-align: center;
+}
+
+.kedge {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+}
+
+
+.Phrase1 {
+  border:  double black 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
+  border-radius: 50px;
+
+}
+
+.moi {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 300px;
+  width: 200px;
+  height: 200px;
+}
+
+.Box2 {
+  display: flex;
+  justify-content: space-around;
+  }
+
+  .Box21 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    }
+
+   .Parcours {
+     text-align: center;
+     color: rgb(37, 16, 71);
+     border: solid black; 5px;
+     border-radius: 20px;
+     }
+
+    .Parcours2 {
+      border: solid black 1px;
+      margin-top: 4px;
+      margin-bottom: 7px;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 20px;
+      }
+
+  .Box22 {
+    margin-right: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    }
+
+   .Expériences {
+     text-align: center;
+     color: rgb(37, 16, 71);
+     border: solid black;
+     border-radius: 20px;
+     }
+
+    .Expériences2 {
+      border: solid black 1px;
+      margin-top: 4px;
+      margin-bottom: 7px;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 20px;
+      }
+
+.Box1 {
+  display: flex;
+  justify-content: space-around;
+  }
+
+  .Box12 {
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+    }  
+
+    .Coordonnées {
+      text-align: center;
+      color: rgb(37, 16, 71);
+      border: solid black;
+      border-radius: 50px;
+      margin: 10px;
+      }
+
+       .Coordonnées2 {
+       border: solid black 1px;
+       margin-top: 7px;
+       margin-bottom: 7px;
+       text-align: center;
+       border-radius: 20px;
+       font-size: 20px;
+       }
+
+  .Box13 {
+    margin-right: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    }
+
+    .Réseaux {
+       text-align: center;
+       color: rgb(37, 16, 71);
+       border: solid black; 5px;
+       border-radius: 50px;
+       margin: 10px;
+       }
+
+       .Réseaux2 {
+         border: solid black 1px;
+         margin-top: 4px;
+         margin-bottom: 7px;
+         text-align: center;
+         border-radius: 20px;
+         font-size: 20px;
+         }
+
+          .Logolinkedin {
+            width: 50px;
+            height: 50px;
+            }
+
+
+.Lettre {
+  border: solid black 5px;
+  margin-right: 85px;
+  margin-left: 85px;
+  margin-bottom: 80px;
+  margin-top: 60px;
+}
+
+
+
+li {
+  text-align: center;
+  color : black;
+  font-family: helvitica;
+  line-height: 2;
+}
+
+
+body {
+background-color: rgb(178, 175, 186);
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+}
+
+
+@media (max-device-width: 540px) {
+  .Box2, .Box1, .Phrase1{
+    display: block;
+  }
+}
+
